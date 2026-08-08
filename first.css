@@ -1,0 +1,65 @@
+:root{
+	--bg: #f4f7fb;
+	--card: #ffffff;
+	--accent: #0d6efd;
+	--text: #1f2937;
+	--muted: #6b7280;
+}
+
+/* Page layout */
+html,body{height:100%;}
+body{
+	margin:0;
+	background:var(--bg);
+	color:var(--text);
+	font-family: "Segoe UI", Roboto, Arial, sans-serif;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	line-height:1.6;
+	padding:2rem;
+}
+.wrapper{
+	max-width:900px;
+	margin:0 auto;
+	background:var(--card);
+	padding:2rem 2.25rem;
+	border-radius:10px;
+	box-shadow:0 6px 24px rgba(16,24,40,0.08);
+}
+
+/* Typography */
+h1{font-size:2rem;margin:0 0 0.5rem;color:var(--accent)}
+h2{font-size:1.25rem;margin:1.25rem 0 0.5rem}
+h3{font-size:1rem;margin:0 0 0.5rem}
+p{margin:0 0 1rem}
+address{font-style:normal;color:var(--muted);margin-bottom:1rem}
+
+/* Links */
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* Article / Aside layout */
+article{margin-top:1rem;padding:1rem;border-radius:8px;background:linear-gradient(180deg, rgba(13,110,253,0.02), transparent)}
+aside{margin-top:0.75rem;padding:0.75rem;border-radius:6px;background:#fbfdff;border:1px solid rgba(13,110,253,0.06)}
+
+/* List */
+ul{padding-left:1.15rem;margin:0.25rem 0}
+li{margin:0.35rem 0}
+
+/* Responsive: place aside to the right on larger screens */
+@media (min-width:760px){
+	article{display:flex;gap:1.25rem;align-items:flex-start}
+	article > aside{flex:0 0 240px}
+	article > h2, article > p{flex:1}
+}
+
+/* Utility */
+.muted{color:var(--muted);font-size:0.95rem}
+
+/* Small screens tweaks */
+@media (max-width:420px){
+	.wrapper{padding:1rem}
+	h1{font-size:1.5rem}
+}
+
+/* End of stylesheet */
