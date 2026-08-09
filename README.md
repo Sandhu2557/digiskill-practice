@@ -1,1 +1,1 @@
-This Repo is created just for pratice and learning MERN.
+This Repo is created just for practice and learning MERN.
