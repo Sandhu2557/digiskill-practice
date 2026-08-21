@@ -1,4 +1,24 @@
+/*what is CSS
+*/
+*{
+	font-family: 'Times New Roman', Times, serif;
+}
+/* id */
+#header{
+	color: black;
+}
 body{
-	background-color:red;
+	background-color:rgb(180, 142, 89);
 	color: white;
+}
+/*class name*/
+.wrapper{
+	text-align: center;
+	background-color:blueviolet;
+	padding:10px;
+}
+a{
+	text-decoration: double;
+	text-shadow: 45px;
+	color:black
 }

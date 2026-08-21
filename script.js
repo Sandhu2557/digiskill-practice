@@ -1,3 +1,3 @@
-let message = "Hello, World!";
+let message = "Fuck you";
 console.log(message);
-alert("I am learning JavaScript");
+alert("Fuck You");
