@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.venv/
+venv/
+
+# IDE / Editor
+.idea/
+.vscode/*
+!.vscode/c_cpp_properties.json
+*.swp
+*.swo
+
+# Temp files
+tempCodeRunnerFile.py
+
+# OS
+.DS_Store
+Thumbs.db
