@@ -1,3 +1,3 @@
-let message = "Fuck you";
+let message = "love you";
 console.log(message);
-alert("Fuck You");
+alert("No you");
